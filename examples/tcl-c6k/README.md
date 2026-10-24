@@ -1,3 +1,5 @@
+> **Compatibility warning:** This setup was validated on the firmware identified as `TCL G08`. A TCL C6K that reports `G15` / `Smart TV Pro` on Android 14 is a different firmware variant and is **not validated**. Disabling Google TV launcher components on that variant may break Home, remote-control buttons, or other TV functions. Keep the original launcher enabled unless the exact firmware has been tested, and restore both `com.google.android.apps.tv.launcherx` and `com.google.android.tungsten.setupwraith` if controls stop responding.
+
 # TCL C6K — personal setup
 
 ADB identifies this TV as TCL G08 / Smart TV Pro, running Android 14 (SDK 34).
